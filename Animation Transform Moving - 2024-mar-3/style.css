@@ -1,0 +1,37 @@
+
+img {
+  width: ;
+  height: 500px;
+
+  /* animation-name: rasara-animation ;
+  animation-timing-function: ease-in-out ;
+  animation-duration: 1s ;
+  animation-delay: 1s ;  
+  animation-iteration-count: infinite;
+  animation-direction:normal ;
+  animation-fill-mode:none ; */
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: rasara-animation ease-in-out 1s 2s  infinite normal none ;
+}
+
+
+@keyframes rasara-animation {
+
+  0% {
+      transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+  
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+
+
+
